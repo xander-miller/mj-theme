@@ -2,9 +2,9 @@
 
 <header class="header">
   <div class="logo">
-    {{#link 'help_center'}}
+    <a href="http://localhost:3000/">
       <img src="{{settings.logo}}" alt="{{t 'home_page' name=help_center.name}}">
-    {{/link}}
+    </a>
   </div>
   <div class="nav-wrapper">
     <button class="menu-button" aria-controls="user-nav" aria-expanded="false" aria-label="{{t 'toggle_navigation'}}">
@@ -13,6 +13,8 @@
       </svg>
     </button>
     <nav class="user-nav" id="user-nav">
+        <a href="http://localhost:3000/">Accueil</a>
+        <a href="http://localhost:3000/a-propos/">À propos</a>
       {{link 'community'}}
       {{link 'new_request' class='submit-a-request'}}
     </nav>

@@ -1,5 +1,5 @@
 /***** Header *****/
-$header-height: 71px;
+$header-height: 135px;
 
 .header {
   @include max-width-container;
@@ -11,7 +11,7 @@ $header-height: 71px;
 }
 
 .logo img {
-  max-height: 37px;
+  height: 125px;
 }
 
 .user-nav {
