@@ -1,4 +1,11 @@
 @import "normalize";
+// Custom Bootstrap variable overrides go first
+@import 'custom/custom-bs-variables';
+
+// Then include the following
+@import 'bootstrap/bootstrap.scss';
+
+// Continue Zendesk Theme
 @import "variables";
 @import "mixins";
 @import "base";
@@ -39,3 +46,27 @@
 @import "search_results";
 @import "notifications";
 @import "dropdowns";
+
+// Customizations
+@import 'custom/typography';
+
+.channel {
+  border: 12px #00aed6 solid;
+  width: 160px;
+  height: 160px;
+}
+
+.channel-img {
+  max-width: 50%;
+  max-height: 40%;
+}
+
+.wellflare-left {
+  background-color: #f2f2f2;
+  border-left: 16px #00aed6 solid;
+}
+
+.wellflare-right {
+  background-color: #f2f2f2;
+  border-right: 16px #00aed6 solid;
+}

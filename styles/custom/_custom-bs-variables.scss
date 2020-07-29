@@ -1,0 +1,19 @@
+$brand-primary: #003263;
+$brand-secondary: #0f5a84;
+$brand-tertiary: #00aed6;
+
+$brand-white: #fff;
+$brand-black: #000;
+$brand-gray: #f2f2f2;
+
+$theme-colors: (
+  'primary': $brand-primary,
+  'secondary': $brand-secondary,
+  'info': $brand-tertiary,
+);
+
+$font-family-sans-serif: 'Libre Franklin', sans-serif;
+
+$navbar-light-color: $brand-primary;
+$navbar-light-brand-color: $brand-primary;
+

@@ -1,25 +1,50 @@
-<footer class="footer">
-  <div class="footer-inner">
-    {{#link 'help_center'}}{{help_center.name}}{{/link}}
-
-    <div class="footer-language-selector">
-      {{#if alternative_locales}}
-        <div class="dropdown language-selector">
-          <button class="dropdown-toggle" aria-haspopup="true">
-            {{current_locale.name}}
-            <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" focusable="false" viewBox="0 0 12 12" class="dropdown-chevron-icon">
-              <path fill="none" stroke="currentColor" stroke-linecap="round" d="M3 4.5l2.6 2.6c.2.2.5.2.7 0L9 4.5"/>
-            </svg>
-          </button>
-          <span class="dropdown-menu dropdown-menu-end" role="menu">
-            {{#each alternative_locales}}
-              <a href="{{url}}" dir="{{direction}}" rel="nofollow" role="menuitem">
-                {{name}}
-              </a>
-            {{/each}}
-          </span>
+<footer>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1837.53 182.44">
+        <defs>
+            <style>
+                .cls-2 {
+                    fill: #00aed6;
+                }
+                .cls-3 {
+                    fill: #0f5a84;
+                }
+            </style>
+        </defs>
+        <g id="Layer_2" data-name="Layer 2">
+            <g id="Calque_3" data-name="Calque 3">
+                <path
+                        class="cls-2"
+                        d="M0,23S834.06,163.91,1836.77,1.53c0,0-827.93,191.49-1366.85,124.85L0,70Z"
+                />
+                <path
+                        class="cls-3"
+                        d="M0,90.77V42.51S940.61,174.64,1837.53,0V110.3S1071.7,284.94,0,90.77Z"
+                />
+            </g>
+        </g>
+    </svg>
+    <div class="row mt-4">
+        <div class="col-2">
+            <img src="{{asset 'canada-logo.png'}}" class="w-100 px-4 pt-3" />
         </div>
-      {{/if}}
+        <div class="col-2">
+            <img src="{{asset 'ontario-logo.png'}}" class="w-100" />
+        </div>
+        <div class="col-4 text-right">
+            <p><small>© Moi j'enseigne, 2020</small></p>
+            <p>
+                <small>
+                    Ce projet est géré par le Centre franco grâce au financement du
+                    ministère de l’Éducation de l’Ontario et du ministère du Patrimoine
+                    canadien.
+                </small>
+            </p>
+        </div>
+        <div class="col-4">
+            <img
+                    src="{{asset 'logo-centre-franco-avec-titre.png'}}"
+                    class="w-100 px-2"
+            />
+        </div>
     </div>
-  </div>
 </footer>
