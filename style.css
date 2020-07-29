@@ -14353,3 +14353,12 @@ ul {
   background-color: #f2f2f2;
   border-right: 16px #00aed6 solid;
 }
+
+.user-info > button::after {
+  padding-right: 0px;
+  display: none;
+}
+
+.user-info .dropdown-toggle::after {
+  display: none;
+}
