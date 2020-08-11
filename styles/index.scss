@@ -79,3 +79,13 @@
 .user-info .dropdown-toggle::after {
   display: none;
 }
+
+.channel-wave {
+  margin-top: -40px;
+}
+
+@include media-breakpoint-up(md) {
+  .channel-wave {
+    margin-top: -80px;
+  }
+}

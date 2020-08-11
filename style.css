@@ -14324,7 +14324,7 @@ h3 {
   font-weight: 500;
 }
 
-ul {
+ul.flower {
   list-style-image: url($assets-bullet-point-small-png);
 }
 
@@ -14361,4 +14361,14 @@ ul {
 
 .user-info .dropdown-toggle::after {
   display: none;
+}
+
+.channel-wave {
+  margin-top: -40px;
+}
+
+@media (min-width: 768px) {
+  .channel-wave {
+    margin-top: -80px;
+  }
 }
