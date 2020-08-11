@@ -38,51 +38,51 @@
         <p class="description">{{description}}</p>
       {{/if}}
 
-      <ul class="profile-stats profile-stats-activity">
-        <li class="stat">
-          <span class="stat-label">{{t 'total_activity'}}</span>
-          <span class="stat-value">{{total_activity}}</span>
-        </li>
-        <li class="stat">
-          <span class="stat-label">{{t 'last_activity'}}</span>
-          <span class="stat-value">
-            {{#if last_activity_at}}
-              {{date last_activity_at timeago=true}}
-            {{else}}
-              {{t 'no_activity_yet'}}
-            {{/if}}
-          </span>
-        </li>
-        <li class="stat">
-          <span class="stat-label">{{t 'member_since'}}</span>
-          <span class="stat-value">
-            {{#if member_since}}
-              {{date member_since format='medium'}}
-            {{else}}
-              {{t 'no_activity_yet'}}
-            {{/if}}
-          </span>
-        </li>
-      </ul>
+<!--      <ul class="profile-stats profile-stats-activity">-->
+<!--        <li class="stat">-->
+<!--          <span class="stat-label">{{t 'total_activity'}}</span>-->
+<!--          <span class="stat-value">{{total_activity}}</span>-->
+<!--        </li>-->
+<!--        <li class="stat">-->
+<!--          <span class="stat-label">{{t 'last_activity'}}</span>-->
+<!--          <span class="stat-value">-->
+<!--            {{#if last_activity_at}}-->
+<!--              {{date last_activity_at timeago=true}}-->
+<!--            {{else}}-->
+<!--              {{t 'no_activity_yet'}}-->
+<!--            {{/if}}-->
+<!--          </span>-->
+<!--        </li>-->
+<!--        <li class="stat">-->
+<!--          <span class="stat-label">{{t 'member_since'}}</span>-->
+<!--          <span class="stat-value">-->
+<!--            {{#if member_since}}-->
+<!--              {{date member_since format='medium'}}-->
+<!--            {{else}}-->
+<!--              {{t 'no_activity_yet'}}-->
+<!--            {{/if}}-->
+<!--          </span>-->
+<!--        </li>-->
+<!--      </ul>-->
     </div>
-    <ul class="profile-stats profile-stats-counters">
-      <li class="stat">
-        <span class="stat-label">{{t 'following_users'}}</span>
-        <span class="stat-value">{{t 'users_count' count=following_count}}</span>
-      </li>
-      <li class="stat">
-        <span class="stat-label">{{t 'followed_by'}}</span>
-        <span class="stat-value">{{t 'users_count' count=follower_count}}</span>
-      </li>
-      <li class="stat">
-        <span class="stat-label">{{t 'votes'}}</span>
-        <span class="stat-value">{{vote_count}}</span>
-      </li>
-      <li class="stat">
-        <span class="stat-label">{{t 'subscriptions'}}</span>
-        <span class="stat-value">{{subscription_count}}</span>
-      </li>
-    </ul>
+<!--    <ul class="profile-stats profile-stats-counters">-->
+<!--      <li class="stat">-->
+<!--        <span class="stat-label">{{t 'following_users'}}</span>-->
+<!--        <span class="stat-value">{{t 'users_count' count=following_count}}</span>-->
+<!--      </li>-->
+<!--      <li class="stat">-->
+<!--        <span class="stat-label">{{t 'followed_by'}}</span>-->
+<!--        <span class="stat-value">{{t 'users_count' count=follower_count}}</span>-->
+<!--      </li>-->
+<!--      <li class="stat">-->
+<!--        <span class="stat-label">{{t 'votes'}}</span>-->
+<!--        <span class="stat-value">{{vote_count}}</span>-->
+<!--      </li>-->
+<!--      <li class="stat">-->
+<!--        <span class="stat-label">{{t 'subscriptions'}}</span>-->
+<!--        <span class="stat-value">{{subscription_count}}</span>-->
+<!--      </li>-->
+<!--    </ul>-->
   </div>
 </header>
 
