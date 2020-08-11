@@ -79,37 +79,43 @@
                 {{/link}}
             </div>
             <div class="col-6 col-md col-lg-2">
-                <div
-                        class="rounded-circle d-flex flex-column justify-content-center align-items-center channel bg-white my-2"
-                >
-                    <img
-                            src="{{asset 'phone-icon.png'}}"
-                            class="channel-img"
-                    />
-                    <span class="channel-text my-1">Téléphone</span>
-                </div>
+                <a href="tel:+18554664515">
+                    <div
+                            class="rounded-circle d-flex flex-column justify-content-center align-items-center channel bg-white my-2"
+                    >
+                        <img
+                                src="{{asset 'phone-icon.png'}}"
+                                class="channel-img"
+                        />
+                        <span class="channel-text my-1">Téléphone</span>
+                    </div>
+                </a>
             </div>
             <div class="col-6 col-md col-lg-2">
-                <div
-                        class="rounded-circle d-flex flex-column justify-content-center align-items-center channel bg-white my-2"
-                >
-                    <img
-                            src="{{asset 'text-icon.png'}}"
-                            class="channel-img"
-                    />
-                    <span class="channel-text my-1">Texto</span>
-                </div>
+                <a href="sms:+18554664515">
+                    <div
+                            class="rounded-circle d-flex flex-column justify-content-center align-items-center channel bg-white my-2"
+                    >
+                        <img
+                                src="{{asset 'text-icon.png'}}"
+                                class="channel-img"
+                        />
+                        <span class="channel-text my-1">Texto</span>
+                    </div>
+                </a>
             </div>
             <div class="col-6 col-md col-lg-2">
-                <div
-                        class="rounded-circle d-flex flex-column justify-content-center align-items-center channel bg-white my-2"
-                >
-                    <img
-                            src="{{asset 'chat-icon.png'}}"
-                            class="channel-img"
-                    />
-                    <span class="channel-text my-1">Clavardage</span>
-                </div>
+                <a href="#" onclick="zE('webWidget', 'open');">
+                    <div
+                            class="rounded-circle d-flex flex-column justify-content-center align-items-center channel bg-white my-2"
+                    >
+                        <img
+                                src="{{asset 'chat-icon.png'}}"
+                                class="channel-img"
+                        />
+                        <span class="channel-text my-1">Clavardage</span>
+                    </div>
+                </a>
             </div>
         </div>
     </div>
