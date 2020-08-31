@@ -14372,3 +14372,9 @@ ul.flower {
     margin-top: -80px;
   }
 }
+
+.hours {
+  color: #003263;
+  font-weight: 600;
+  font-size: 1.5em;
+}
